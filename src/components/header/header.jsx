@@ -12,8 +12,7 @@ const Header = () => {
 
   return (
     <div className="h-screen w-full bg-[url('src/image/background.png')] bg-cover bg-right flex justify-start items-end">
-      <div className="flex items-end ml-10 mb-20 w-full max-w-md md:max-w-2xl lg:max-w-1/3">
-        <div>
+      <div className="flex-row ml-5 mb-20 w-full max-w-md md:max-w-2xl lg:max-w-1/3">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
             Happy Birthday! Even Though I Don&apos;t Have A Gift To Give, I Hope My Warm Wishes Bring A Smile To Your Face. Have An Amazing Day Filled With Love And Joy!
           </h1>
@@ -37,7 +36,6 @@ const Header = () => {
           </div>
 
           <Popup isOpen={isPopupOpen} onClose={togglePopup} />
-        </div>
       </div>
     </div>
   );

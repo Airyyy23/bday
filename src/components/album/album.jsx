@@ -21,7 +21,7 @@ const imgAlbum = [
 
 const Album = () => {
   return (
-    <div className='p-10'>
+    <div className='py-10 px-5'>
       <h1 className='text-xl font-semibold'>How Beuatiful she&apos;s</h1>
       <div className=" album flex overflow-x-auto space-x-4 scroll-smooth mt-5">
         {
